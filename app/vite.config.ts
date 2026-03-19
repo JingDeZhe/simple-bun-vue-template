@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite'
+import VueRouter from 'vue-router/vite'
 import vue from '@vitejs/plugin-vue'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [VueRouter(), vue()],
   base: '/app/',
   build: {
     outDir: '../public/app',
