@@ -12,12 +12,12 @@
   },
   "devDependencies": {
     "@types/bun": "latest",
-    "concurrently": "^10.0.0"
+    "concurrently": "^10.0.3"
   },
   "peerDependencies": {
     "typescript": "^5"
   },
   "dependencies": {
-    "hono": "^4.12.23"
+    "hono": "^4.12.25"
   }
 }
